@@ -1,0 +1,326 @@
+:root {
+  --navy: #041117;
+  --teal: #1AFFD5;
+  --purple: #9C528B;
+  --blue: #016FB9;
+}
+
+* {
+    font-family: Avenir, sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: white;
+    /*background-color: var(--navy);*/
+}
+
+body {
+    background-color: var(--navy);
+}
+
+h1 {
+    font-family: Avenir, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 15vh;
+    color: var(--teal);
+}
+
+span{
+  font-family: Avenir, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15vh;
+  color: white;
+}
+
+h2 {
+    font-family: Avenir, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15vh;
+    color: white;
+}
+
+h3 {
+  font-family: Avenir, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 5vh;
+  color: white;
+}
+
+h4 {
+  font-family: Avenir, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 3.5vh;
+  color: white;
+}
+
+h5{
+  font-size: 2.5vh;
+}
+
+p{
+  font-size: 2.5vh;
+}
+
+header {
+  margin: 0;
+  padding-bottom: 3%;
+}
+
+a{
+  text-decoration: none;
+}
+nav {
+  width: 100%;
+  padding-left: 5%;
+  padding-right: 5%;
+  line-height: fixed;
+  white-space: nowrap;
+  margin-bottom: 5%;
+}
+
+nav ul{
+  display: flex;
+  list-style-type: none;
+}
+
+nav li{
+  float: center;
+  padding: 10%
+  border: 10%;
+  width: 100%;
+  padding-bottom: 1%;
+  display: inline-block;
+  font-size: 2.5vw;
+}
+
+nav li:hover{
+  background-color: var(teal);
+}
+
+ nav li:hover a{
+  color: #4FB2B2;
+ }
+
+nav a{
+  font-size: 50%;
+}
+
+.heading{
+  padding-left: 60px;
+  border-left: 20px;
+}
+
+.project{
+  background-color: #016FB920;
+  margin: 0px;
+  transition: transform .2s;
+}
+
+.project h4{
+  background-color: #016FB900;
+  text-align: center;
+  padding: 1.5vh;
+}
+
+.project-tag {
+  font-family: Avenir, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2.5vh;
+  color: var(--purple);
+  background-color: #016FB900;
+  text-align: center;
+
+}
+
+.flex-row a{
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.project-description{
+  margin: 5%;
+  margin-left: 7%;
+  margin-right: 7%;
+  text-align: center;
+}
+
+.fade-in {
+animation: fadeIn ease 5s;
+-webkit-animation: fadeIn ease 5s;
+-moz-animation: fadeIn ease 5s;
+-o-animation: fadeIn ease 5s;
+-ms-animation: fadeIn ease 5s;
+opacity: 0;
+animation-fill-mode: forwards;
+}
+
+@keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+.fade-in-1 {
+opacity: 0;
+animation-delay: 1s;
+animation-fill-mode: forwards;
+}
+
+.fade-in-2{
+  opacity: 0;
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
+}
+
+.fade-in-3{
+  opacity: 0;
+  animation-delay: 3s;
+  animation-fill-mode: forwards;
+}
+
+
+
+
+
+/* Creates a global container. All of our pages should start with a global container */
+.global-container {
+    padding-left: 0%;
+    padding-right: 0%;
+    background-color: #040F16;
+    margin:0;
+    padding-bottom: 0;
+    height: 100%;
+}
+
+/* Creates a flex row for our flex boxes */
+.flex-row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    margin-bottom: 50px;
+    padding-left: 10%;
+    padding-right: 10%;
+    border-left: 10%;
+    border-right: 10%;
+}
+
+.shadow{
+  background-color: #0D0A5C80 ;
+}
+
+.project:hover {
+  transform: scale(1.1);
+}
+
+/* Sets up padding on all of our columns */
+.col {
+    padding: 15px;
+}
+
+/* Creates the column widths for organization */
+.col-12 {
+    width: 100%;
+}
+
+.col-11 {
+    width: 91.666667%;
+}
+
+.col-10 {
+    width: 83.333333%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-8 {
+    width: 66.667%;
+}
+
+.col-7 {
+    width: 58.333333%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-5 {
+    width: 41.666667%;
+}
+
+.col-4 {
+    width: 33.333333%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-2 {
+    width: 16.666667%;
+}
+
+.col-1 {
+    width: 8.333333%;
+}
+.col-1.5 {
+  width: 4.15%;
+}
+
+
+
+
+/* Defining the media queries for use on ALL HTML documents */
+/* Anything defined OUTSIDE the media queries will always be the same.
+ * The only thing that changes is the CSS INSIDE the media queries.
+ */
+
+/*mobile phones*/
+@media (max-width: 750px) {
+}
+/*desktop*/
+
+
+@media (min-width: 751px){
+
+}
+
+@media (min-width: 1080px){
+
+}
+
+@media (min-width: 1440px) {
+
+}

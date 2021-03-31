@@ -208,8 +208,8 @@ animation-fill-mode: forwards;
 
 
 
+/*utilizes responsive template from Web Design II*/
 
-/* Creates a global container. All of our pages should start with a global container */
 .global-container {
     padding-left: 0%;
     padding-right: 0%;
@@ -219,7 +219,7 @@ animation-fill-mode: forwards;
     height: 100%;
 }
 
-/* Creates a flex row for our flex boxes */
+
 .flex-row {
     display: -ms-flexbox;
     display: flex;
@@ -242,12 +242,12 @@ animation-fill-mode: forwards;
   transform: scale(1.1);
 }
 
-/* Sets up padding on all of our columns */
+
 .col {
     padding: 15px;
 }
 
-/* Creates the column widths for organization */
+
 .col-12 {
     width: 100%;
 }
@@ -302,10 +302,6 @@ animation-fill-mode: forwards;
 
 
 
-/* Defining the media queries for use on ALL HTML documents */
-/* Anything defined OUTSIDE the media queries will always be the same.
- * The only thing that changes is the CSS INSIDE the media queries.
- */
 
 /*mobile phones*/
 @media (max-width: 750px) {

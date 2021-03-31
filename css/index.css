@@ -140,19 +140,24 @@ img{
      color: var(--purple);
 }
 
-.button-2 a{
-  color: var(--purple);
+.button-2 {
+    background-color: #9C528B20;
+    color: var(--purple);
+    border-color: var(--purple);
+    display: inline-block;
+    text-align: center;
+    padding: 2%;
 }
 
 .button-2:hover{
-    /*background-color: var(--teal);*/
-    border-color: var(--teal);
+    background-color: #1AFFD520;
     color: var(--teal);
 }
 
 .button-2 a:hover {
      color: var(--teal);
 }
+
 
 /*fade in animation -- from Hubspot website*/
 .fade-in {
@@ -206,6 +211,12 @@ animation-fill-mode: forwards;
 .fade-in-3{
   opacity: 0;
   animation-delay: 3.5s;
+  animation-fill-mode: forwards;
+}
+
+.fade-in-4{
+  opacity: 0;
+  animation-delay: 4s;
   animation-fill-mode: forwards;
 }
 
